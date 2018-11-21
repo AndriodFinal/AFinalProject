@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/stopCode"
+        android:layout_width="261dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/stopCode" />
+
+    <TextView
+        android:id="@+id/stopName"
+        android:layout_width="123dp"
+        android:layout_height="50dp"
+        android:layout_toLeftOf="@id/stopName"
+        android:text="@string/stopCode" />
+
+
+    <ListView
+        android:id="@+id/codeList"
+        android:layout_width="174dp"
+        android:layout_height="514dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/stopName" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="258dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="130dp"
+        android:progress="@android:integer/config_longAnimTime"
+        android:progressDrawable="@mipmap/ic_launcher"
+        android:progressTint="@color/colorPrimary"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/snackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="108dp"
+        android:layout_marginEnd="68dp"
+        android:text="Snack Bar" />
+
+    <Button
+        android:id="@+id/dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/snackButton"
+        android:layout_marginBottom="36dp"
+        android:text="Button"
+        tools:text="Dialog" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/snackButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="163dp"
+        tools:text="@tools:sample/date/mmddyy" />
+</RelativeLayout>

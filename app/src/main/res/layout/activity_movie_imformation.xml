@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovieImformation">
+
+    <CheckBox
+
+        android:id="@+id/checkBox"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_columnWeight="1"
+
+        android:gravity="fill"
+
+        android:layout_row="0"
+
+        android:layout_column="1"
+
+        android:text="@string/CheckBox" />
+
+    <Button
+        android:id="@+id/snackButton"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="snackButton"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@tools:sample/date/ddmmyy" />
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="258dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="133dp"
+        android:progressDrawable="@mipmap/ic_launcher"
+        android:visibility="invisible" />
+
+</LinearLayout>
