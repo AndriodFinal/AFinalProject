@@ -27,6 +27,7 @@
         <activity android:name=".FavoritesList" />
         <activity android:name=".FoodNutritionDatabase" />
         <activity android:name=".food_main" />
+        <activity android:name=".Router_New"></activity>
     </application>
 
 </manifest>

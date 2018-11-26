@@ -62,11 +62,4 @@
         android:text="Button"
         tools:text="Dialog" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/snackButton"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="163dp"
-        tools:text="@tools:sample/date/mmddyy" />
 </RelativeLayout>
