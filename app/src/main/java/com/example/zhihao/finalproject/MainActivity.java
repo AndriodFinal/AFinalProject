@@ -13,11 +13,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+//        Toolbar toolbar = findViewById(R.id.toolbar);
+//        // App Logo
+//        toolbar.setLogo(R.drawable.icon_launcher);
+//        // Title
+//        toolbar.setTitle("Andriod Final Project");
+//        setSupportActionBar(toolbar);
+//        toolbar.setNavigationIcon(R.drawable.icon_android);
         Button Transpo = (Button) findViewById(R.id.OCTranspo);
         Transpo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent OC = new Intent(MainActivity.this, OCTranspo.class);
+                Intent OC = new Intent(MainActivity.this, OCTranspoMain.class);
                 startActivity(OC);
             }
         });

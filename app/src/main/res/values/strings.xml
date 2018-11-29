@@ -22,6 +22,12 @@
     <string name="ok">ok</string>
 
     <string name="cancel">cancel</string>
+    <string name="about">about</string>
+    <string name="newMessage">message</string>
+    <string name="loading">loading</string>
+    <string name="dialog">dialog</string>
+    <string name="action_share">Share</string>
+    <string name="action_edit">Edit</string>
 
 
 </resources>
