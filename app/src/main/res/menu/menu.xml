@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+
+        android:id="@+id/cbc"
+        android:icon="@drawable/bus"
+        android:title="cbc"
+        android:visible="true"
+        app:showAsAction="always"
+        />
+
+    <item
+
+        android:id="@+id/food"
+        android:icon="@drawable/bus"
+        android:title="food"
+        android:visible="true"
+        app:showAsAction="always"
+        />
+
+    <item
+
+        android:id="@+id/movie"
+        android:icon="@drawable/bus"
+        android:title="movie"
+        app:showAsAction="always"
+        android:visible="true"
+        />
+
+    <item
+
+        android:id="@+id/transport"
+        android:icon="@drawable/bus"
+        android:title="OC"
+        app:showAsAction="always"
+        android:visible="true"
+        />
+
+    <item
+
+        android:id="@+id/help"
+        android:title="help"
+        android:visible="true"
+        app:showAsAction="never"
+        />
+
+    <item
+
+        android:id="@+id/about"
+        android:title="about"
+        android:visible="true"
+        app:showAsAction="never"
+        />
+
+</menu>

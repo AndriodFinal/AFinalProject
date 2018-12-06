@@ -25,4 +25,12 @@
     <string name="cancel">cancel</string>
 
 
+
+
+    <string name="newMessage">you can search movie</string>
+    <string name="movieAuthorName">Author name is Wang ZhaoYu and Version 1.0</string>
+    <string name="moive_about">About</string>
+    <string name="moive_help">Help</string>
+
+
 </resources>

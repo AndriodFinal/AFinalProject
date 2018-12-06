@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.zhihao.finalproject">
-
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -22,8 +22,10 @@
         <activity android:name=".OCTranspo" />
         <activity android:name=".route" />
         <activity android:name=".CBC_Main" />
-        <activity android:name=".Movie_Main" />
+        <activity android:name=".MovieActivity"/>
         <activity android:name=".MovieImformation" />
+        <activity android:name=".MovieCollect" />
+
         <activity android:name=".FavoritesList" />
         <activity android:name=".FoodNutritionDatabase" />
         <activity android:name=".food_main" />

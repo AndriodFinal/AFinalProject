@@ -25,12 +25,12 @@ public class MainActivity extends AppCompatActivity {
         movie.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent mv = new Intent(MainActivity.this, Movie_Main.class);
+                Intent mv = new Intent(MainActivity.this, MovieActivity.class);
                 startActivity(mv);
             }
         });
         Button news = findViewById(R.id.News);
-        movie.setOnClickListener(new View.OnClickListener() {
+        news.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent news = new Intent(MainActivity.this, CBC_Main.class);
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         Button food = findViewById(R.id.foodButton);
-        movie.setOnClickListener(new View.OnClickListener() {
+        food.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent food = new Intent(MainActivity.this, food_main.class);
